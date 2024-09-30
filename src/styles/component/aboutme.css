@@ -1,0 +1,24 @@
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 1.25rem;
+}
+
+.left-list,
+.right-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 45%;
+}
+
+@media (max-width: 768px) {
+  .left-list,
+  .right-list {
+    text-align: left;
+    word-wrap: normal;
+    width: 100%;
+    margin: 15px 0;
+  }
+}

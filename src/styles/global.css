@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+Pro&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --mainColor: #ce4257;
+  --mainColorLight: #ff7f51;
+  --mainColorDark: #720026;
+  --secondaryColor: #ff9b54;
+  --textColor: #eee;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-inline: 5%;
+  padding-top: 1%;
+  background: url(../assets/background.svg);
+  color: var(--textColor);
+}
+
+section {
+  padding: 150px;
+  margin-bottom: 30px;
+  border: 1px solid #535353;
+  border-radius: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+  min-height: 100vh; /* Usa el 100% de la altura del viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  margin: 25px 0;
+}
+
+li {
+  margin: 5px 0;
+}
+@media (max-width: 768px) {
+  section {
+    padding: 50px;
+  }
+}
