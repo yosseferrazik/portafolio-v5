@@ -1,4 +1,3 @@
-import React from "react";
 import TextImage from "../components/TextImage";
 import "../styles/component/aboutme.css";
 import {

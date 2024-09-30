@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import "../styles/component/home.css";
 
 import { FaGithubAlt, FaDiscord, FaYoutube } from "react-icons/fa6";
