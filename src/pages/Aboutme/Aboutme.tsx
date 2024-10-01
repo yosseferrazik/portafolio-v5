@@ -11,7 +11,7 @@ import {
   FaJs,
 } from "react-icons/fa";
 import { FaPersonChalkboard } from "react-icons/fa6";
-import { BsPciCardNetwork } from "react-icons/bs";
+import { BsPciCardNetwork, BsEmojiLaughingFill } from "react-icons/bs";
 import { MdHardware, MdEngineering } from "react-icons/md";
 
 import SEO from "../../components/SEO/SEO";
@@ -31,7 +31,8 @@ const Aboutme = () => {
         description={
           <div>
             <p>
-              Hello! My name is<strong>Yossef Errazik</strong> .
+              Hello! My name is <strong>Yossef Errazik</strong>{" "}
+              <BsEmojiLaughingFill /> .
             </p>
             <br />
             <p>
