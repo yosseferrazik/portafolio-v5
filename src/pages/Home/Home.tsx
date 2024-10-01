@@ -53,6 +53,7 @@ const Home = () => {
               window.open("https://github.com/yosseferrazik", "_blank")
             }
           />
+          {"  "}
           <FaDiscord
             onClick={() =>
               window.open(
@@ -61,6 +62,7 @@ const Home = () => {
               )
             }
           />
+          {"  "}
           <FaYoutube
             onClick={() =>
               window.open(
@@ -69,6 +71,7 @@ const Home = () => {
               )
             }
           />
+          {"  "}
           <MdMail
             onClick={() =>
               window.open("mailto:yosseferrazik@gmail.com", "_blank")
