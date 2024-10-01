@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
-  align-items: flex-start; /* Alinea el texto hacia arriba */
+  align-items: flex-start;
 }
 .container hr {
   margin: 50px 0;
