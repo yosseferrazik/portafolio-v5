@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
-import "../styles/component/home.css";
-
 import { FaGithubAlt, FaDiscord, FaYoutube } from "react-icons/fa6";
 import { FcIdea } from "react-icons/fc";
 import { MdMail } from "react-icons/md";
+import styles from "./Home.module.css";
+import SEO from "../../components/SEO/SEO";
 
 const words = [
   "manifest",
   "execute",
   "implement",
-  "perform ",
+  "perform",
   "develop",
   "carry out",
 ];
@@ -36,17 +36,23 @@ const Home = () => {
   }, []);
 
   return (
-    <section id="home">
-      <div className="home-social-container">
+    <section id="home" className={styles.home}>
+      <SEO
+        title="Home - Yossef Errazik"
+        description="Welcome to my web portfolio. I'm Yossef Errazik, and I like technology."
+        keywords="Yossef Errazik, desarrollo web, portafolio, tecnología"
+        author="Yossef Errazik"
+      />
+      <div className={styles.homeSocialContainer}>
         <h1>
-          Im <span>Yossef FTW</span>,
+          Im <span>Yossef Errazik</span>,
         </h1>
-        <div className="social-container">
+        <div className={styles.socialContainer}>
           <FaGithubAlt
             onClick={() =>
               window.open("https://github.com/yosseferrazik", "_blank")
             }
-          />{" "}
+          />
           <FaDiscord
             onClick={() =>
               window.open(
@@ -54,7 +60,7 @@ const Home = () => {
                 "_blank"
               )
             }
-          />{" "}
+          />
           <FaYoutube
             onClick={() =>
               window.open(
@@ -62,7 +68,7 @@ const Home = () => {
                 "_blank"
               )
             }
-          />{" "}
+          />
           <MdMail
             onClick={() =>
               window.open("mailto:yosseferrazik@gmail.com", "_blank")
@@ -73,8 +79,10 @@ const Home = () => {
       <hr />
       <h3>
         And I{" "}
-        <span className={`blur-transition blur-${blur}`}>
-          <span className={`spin-word ${isBlurred ? "blurred" : ""}`}>
+        <span className={styles.blurTransition}>
+          <span
+            className={`${styles.spinWord} ${isBlurred ? styles.blurred : ""}`}
+          >
             {currentWord}
           </span>
         </span>{" "}

@@ -1,11 +1,10 @@
 import React, { ReactNode } from "react";
-
-import "../styles/component/textimage.css";
+import styles from "./TextImage.module.css";
 
 interface Props {
   title: string;
   imageFirst: boolean;
-  description: string;
+  description: any;
   imageUrl: string;
   alt: string;
   more?: boolean;
@@ -20,14 +19,14 @@ const TextImage: React.FC<Props> = ({
   extra,
 }) => {
   return (
-    <div className="container">
-      <div className="text-section">
-        <h1 className="title">{title}</h1>
-        <p className="description">{description}</p>
+    <div className={styles.container}>
+      <div className={styles.textSection}>
+        <h1 className={styles.title}>{title}</h1>
+        <p className={styles.description}>{description}</p>
         <hr />
         {more ? <div>{extra}</div> : ""}
       </div>
-      <div className="image-section">
+      <div className={styles.imageSection}>
         <img src={imageUrl} alt="description" />
       </div>
     </div>

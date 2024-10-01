@@ -8,7 +8,7 @@
 .container hr {
   margin: 50px 0;
 }
-.text-section {
+.textSection {
   flex: 1;
   padding-right: 20px;
 }
@@ -22,11 +22,11 @@
   font-size: 1.25rem;
 }
 
-.image-section {
+.imageSection {
   flex: 1;
 }
 
-.image-section img {
+.imageSection img {
   width: 100%;
   height: auto;
   display: block;
@@ -40,7 +40,7 @@
   .container hr {
     margin: 30px 0;
   }
-  .text-section {
+  .textSection {
     padding-right: 0;
     margin-bottom: 20px;
   }

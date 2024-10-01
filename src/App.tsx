@@ -2,10 +2,10 @@ import { Route, Routes } from "react-router-dom";
 
 import "./styles/global.css";
 
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
-import Aboutme from "./pages/Aboutme";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+import Footer from "./components/Footer/Footer";
+import Aboutme from "./pages/Aboutme/Aboutme";
 
 const App = () => {
   return (

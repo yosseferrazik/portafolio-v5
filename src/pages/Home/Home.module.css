@@ -1,8 +1,8 @@
-#home {
+.home {
   font-size: 3vw;
 }
 
-#home h1 span {
+.home h1 span {
   -webkit-text-stroke: 2px white;
   color: transparent;
   font-family: "Archivo Black", sans-serif;
@@ -11,41 +11,45 @@
   transition: linear 200ms;
 }
 
-#home h1 span:hover {
+.home h1 span:hover {
   filter: drop-shadow(0 0 0.75rem white);
   transform: scale(1.5);
 }
 
-#home .home-social-container {
+.homeSocialContainer {
   display: flex;
 }
-#home .home-social-container .social-container svg {
+
+.socialContainer svg {
   cursor: pointer;
   transition: linear 200ms;
 }
-#home .home-social-container .social-container svg:hover {
+
+.socialContainer svg:hover {
   filter: drop-shadow(0 0 0.75rem white);
   scale: 1.2;
 }
 
-#home .home-social-container h1 {
+.homeSocialContainer h1 {
   margin-right: auto;
 }
-#home .home-social-container .social-container {
+
+.socialContainer {
   align-content: center;
 }
-.spin-word {
+
+.spinWord {
   color: rgb(155, 153, 153);
   transition: filter 0.15s ease;
   text-wrap: nowrap;
   font-size: 100%;
 }
 
-.spin-word.blurred {
+.blurred {
   filter: blur(8px);
 }
 
-#home h3 svg {
+.home h3 svg {
   animation-name: bulblight;
   animation-duration: 2s;
   animation-timing-function: ease-out;
@@ -66,24 +70,25 @@
 }
 
 @media screen and (max-width: 620px) {
-  #home {
+  .home {
     padding: 50px;
     width: 100%;
     font-size: 30px;
   }
 
-  #home .home-social-container {
+  .homeSocialContainer {
     display: table-column;
   }
 
-  #home .home-social-container h1 {
+  .homeSocialContainer h1 {
     margin-right: 0;
   }
-  #home .home-social-container .social-container {
+
+  .socialContainer {
     align-content: center;
   }
 
-  #home h3 {
+  .home h3 {
     margin-top: 10px;
     font-size: large;
   }
