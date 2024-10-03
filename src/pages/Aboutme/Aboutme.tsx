@@ -20,7 +20,7 @@ const Aboutme = () => {
   return (
     <section>
       <SEO
-        title="About me - Yossef Errazik"
+        title="😉 About me - Yossef Errazik"
         description="Welcome to my web portfolio. I'm Yossef Errazik, and I like technology."
         keywords="Yossef Errazik, desarrollo web, portafolio, tecnología"
         author="Yossef Errazik"

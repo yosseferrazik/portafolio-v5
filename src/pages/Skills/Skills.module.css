@@ -1,0 +1,41 @@
+.articleContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.articleTitle svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.iconContainer {
+  font-size: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-between;
+}
+.iconContainer svg {
+  margin: 10px;
+}
+.iconSingleContainer {
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #535353;
+  border-radius: 5px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+  max-width: 200px;
+  text-align: left;
+  text-wrap: wrap;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+}

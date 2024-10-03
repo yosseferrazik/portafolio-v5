@@ -21,7 +21,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.hoverable:not(:hover) + .show-on-hover {
+  display: none;
+}
 body {
   padding-inline: 5%;
   padding-top: 1%;
@@ -38,6 +40,17 @@ section {
   min-height: 100vh; /* Usa el 100% de la altura del viewport */
   display: flex;
   flex-direction: column;
+}
+
+article {
+  max-width: 475px;
+  padding: 20px;
+  border: 1px solid #535353;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+  flex: 1;
+  margin: 5px;
+  color: #e6e4e4;
 }
 
 hr {

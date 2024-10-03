@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <section id="home" className={styles.home}>
       <SEO
-        title="Home - Yossef Errazik"
+        title="🏠 Home - Yossef Errazik"
         description="Welcome to my web portfolio. I'm Yossef Errazik, and I like technology."
         keywords="Yossef Errazik, desarrollo web, portafolio, tecnología"
         author="Yossef Errazik"
