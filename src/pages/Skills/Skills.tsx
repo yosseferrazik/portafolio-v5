@@ -1,7 +1,6 @@
 import styles from "./Skills.module.css";
 import SEO from "../../components/SEO/SEO";
 import { TbCodeDots } from "react-icons/tb";
-import { FaCss3, FaHtml5, FaJs, FaPython } from "react-icons/fa";
 import {
   SiApache,
   SiCss3,
@@ -13,9 +12,7 @@ import {
   SiJavascript,
   SiMongodb,
   SiMongoose,
-  SiNetlify,
   SiNodedotjs,
-  SiPorkbun,
   SiPython,
   SiReact,
   SiTypescript,
