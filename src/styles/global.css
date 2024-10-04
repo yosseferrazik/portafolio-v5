@@ -51,6 +51,7 @@ article {
   flex: 1;
   margin: 5px;
   color: #e6e4e4;
+  backdrop-filter: blur(1px);
 }
 
 hr {

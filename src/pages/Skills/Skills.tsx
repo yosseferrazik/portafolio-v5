@@ -29,7 +29,6 @@ const Skills = () => {
   return (
     <section id="skills" className={styles.skills}>
       <h1>Tech Skills</h1>
-      <hr />
       <SEO
         title="🦾 Skills - Yossef Errazik"
         description="Welcome to my web portfolio. I'm Yossef Errazik, and I like technology."

@@ -29,6 +29,14 @@ const Navbar = () => {
         <Link to={"/skills"} onClick={showNavbar}>
           🦾​ Tech skills
         </Link>
+        <details>
+          <summary>Epcot Center</summary>
+          <p>
+            Epcot is a theme park at Walt Disney World Resort featuring exciting
+            attractions, international pavilions, award-winning fireworks and
+            seasonal special events.
+          </p>
+        </details>
         <button
           className={`${styles.navBtn} ${styles.navCloseBtn}`}
           onClick={showNavbar}

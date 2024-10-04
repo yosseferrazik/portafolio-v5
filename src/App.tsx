@@ -7,15 +7,19 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Aboutme from "./pages/Aboutme/Aboutme";
 import Skills from "./pages/Skills/Skills";
+import { motion } from "framer-motion";
+import AnimationLayout from "./components/AnimationLayout/AnimationLayout";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route path="/aboutme" element={<Aboutme />} />{" "}
-        <Route path="/skills" element={<Skills />} />
+        <Route element={<AnimationLayout />}>
+          <Route index path="/" element={<Home />} />
+          <Route path="/aboutme" element={<Aboutme />} />{" "}
+          <Route path="/skills" element={<Skills />} />
+        </Route>
       </Routes>
       <Footer />
     </>

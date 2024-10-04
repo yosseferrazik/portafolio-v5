@@ -15,6 +15,7 @@ import { BsPciCardNetwork, BsEmojiLaughingFill } from "react-icons/bs";
 import { MdHardware, MdEngineering } from "react-icons/md";
 
 import SEO from "../../components/SEO/SEO";
+import { motion } from "framer-motion";
 
 const Aboutme = () => {
   return (
@@ -73,6 +74,15 @@ const Aboutme = () => {
           <div className={styles.skills}>
             <h1 className={styles.title}>Skills</h1>
             <div className={styles.listContainer}>
+              <motion.ul
+                initial={{ "--rotate": "0deg" } as any}
+                animate={{ "--rotate": "360deg" } as any}
+                transition={{ duration: 2, repeat: Infinity }}
+              >
+                <li style={{ transform: "rotate(var(--rotate))" }} />
+                <li style={{ transform: "rotate(var(--rotate))" }} />
+                <li style={{ transform: "rotate(var(--rotate))" }} />
+              </motion.ul>
               <ul className={styles.leftList}>
                 <li>
                   <FaHtml5 /> Web development

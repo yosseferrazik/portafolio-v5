@@ -20,18 +20,30 @@
   margin: 0 1rem;
   color: var(--textColor);
   text-decoration: none;
+  border: 1px solid #535353;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+  outline: none;
+  backdrop-filter: blur(1px);
+  padding: 10px;
+  transition: all 0.2s;
 }
 
 .nav a:hover {
   color: var(--secondaryColor);
+  transform: scale(1.2);
 }
 
 .navBtn {
   padding: 5px;
   cursor: pointer;
-  background: transparent;
-  border: none;
+
+  border: 1px solid #535353;
+  border-radius: 5px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
   outline: none;
+  backdrop-filter: blur(1px);
+
   color: var(--textColor);
   visibility: hidden;
   opacity: 0;
