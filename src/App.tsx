@@ -14,11 +14,9 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route element={<AnimationLayout />}>
-          <Route index path="/" element={<Home />} />
-          <Route path="/aboutme" element={<Aboutme />} />{" "}
-          <Route path="/skills" element={<Skills />} />
-        </Route>
+        <Route index path="/" element={<Home />} />
+        <Route path="/aboutme" element={<Aboutme />} />{" "}
+        <Route path="/skills" element={<Skills />} />¡{" "}
       </Routes>
       <Footer />
     </>

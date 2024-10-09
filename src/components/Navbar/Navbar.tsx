@@ -29,7 +29,7 @@ const Navbar = () => {
         <Link to={"/skills"} onClick={showNavbar}>
           🦾​ Tech skills
         </Link>
-        <button></button>
+
         <button
           className={`${styles.navBtn} ${styles.navCloseBtn}`}
           onClick={showNavbar}
