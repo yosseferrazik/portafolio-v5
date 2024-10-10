@@ -29,6 +29,9 @@ const Navbar = () => {
         <Link to={"/skills"} onClick={showNavbar}>
           🦾​ Tech skills
         </Link>
+        <Link to={"/contact"} onClick={showNavbar}>
+          📧​ Contact
+        </Link>
 
         <button
           className={`${styles.navBtn} ${styles.navCloseBtn}`}
