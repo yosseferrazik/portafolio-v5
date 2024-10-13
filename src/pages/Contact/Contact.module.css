@@ -52,23 +52,36 @@
 }
 
 .submitBtn {
-  padding: 12px 30px;
+  padding: 22px 40px;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: transparent;
   color: white;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 15px;
 }
+.submitBtn {
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
+  border: 1px solid #535353;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+  outline: none;
+  backdrop-filter: blur(1px);
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.submitBtn:hover {
+  color: var(--secondaryColor);
+  transform: scale(1.2);
+}
 
 .submitBtn:disabled {
   background-color: #b0b0b0;
   cursor: not-allowed;
-}
-
-.submitBtn:hover:not(:disabled) {
-  background-color: #0056b3;
 }
 
 /* Alert styling */
