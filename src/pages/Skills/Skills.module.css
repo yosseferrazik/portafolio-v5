@@ -22,7 +22,6 @@
   margin: 10px;
 }
 .iconSingleContainer {
-  backdrop-filter: blur(2px);
   margin: auto;
   margin-top: 10px;
   display: flex;

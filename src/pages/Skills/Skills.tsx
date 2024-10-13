@@ -33,11 +33,11 @@ const Skills = () => {
         author="Yossef Errazik"
       />
       <div className={styles.articleContainer}>
-        <article className={styles.article}>
-          <article className={styles.articleTitle}>
+        <div className={styles.article}>
+          <div className={styles.articleTitle}>
             <h2>Languages</h2>
             <TbCodeDots />
-          </article>
+          </div>
           <div className={styles.iconContainer}>
             <div className={styles.iconSingleContainer}>
               <SiHtml5 /> HTML5
@@ -55,12 +55,12 @@ const Skills = () => {
               <SiTypescript /> Typescript
             </div>{" "}
           </div>
-        </article>
-        <article className={styles.article}>
-          <article className={styles.articleTitle}>
+        </div>
+        <div className={styles.article}>
+          <div className={styles.articleTitle}>
             <h2>Tools</h2>
             <WiStars />
-          </article>
+          </div>
           <div className={styles.iconContainer}>
             <div className={styles.iconSingleContainer}>
               <SiApache /> Apache
@@ -83,12 +83,12 @@ const Skills = () => {
               Git
             </div>{" "}
           </div>
-        </article>
-        <article className={styles.article}>
-          <article className={styles.articleTitle}>
+        </div>
+        <div className={styles.article}>
+          <div className={styles.articleTitle}>
             <h2>Backend & Frontend</h2>
             <HiPuzzlePiece />
-          </article>
+          </div>
           <div className={styles.iconContainer}>
             <div className={styles.iconSingleContainer}>
               <SiNodedotjs /> Node.js
@@ -106,7 +106,7 @@ const Skills = () => {
               <SiMongoose /> Mongoose
             </div>{" "}
           </div>
-        </article>
+        </div>
       </div>
     </section>
   );
