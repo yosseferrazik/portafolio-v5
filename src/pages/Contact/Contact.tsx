@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Contact.module.css";
+import SEO from "../../components/SEO/SEO";
 
 const Contact = () => {
   const [alertInfo, setAlertInfo] = useState({
@@ -41,6 +42,12 @@ const Contact = () => {
 
   return (
     <section className={styles.contactSection}>
+      <SEO
+        title="📧 Contact me - Yossef Errazik"
+        description="Welcome to my web portfolio. I'm Yossef Errazik, and I like technology."
+        keywords="Yossef Errazik, desarrollo web, portafolio, tecnología"
+        author="Yossef Errazik"
+      />
       <div className={styles.formWrapper}>
         <h1 className={styles.title}>Contact me</h1>
         <form

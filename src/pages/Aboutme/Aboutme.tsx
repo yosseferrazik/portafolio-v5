@@ -10,6 +10,7 @@ import {
   FaNetworkWired,
   FaJs,
 } from "react-icons/fa";
+
 import { FaPersonChalkboard } from "react-icons/fa6";
 import { BsPciCardNetwork, BsEmojiLaughingFill } from "react-icons/bs";
 import { MdHardware, MdEngineering } from "react-icons/md";
@@ -32,7 +33,7 @@ const Aboutme = () => {
           <div>
             <p>
               Hello! My name is <strong>Yossef Errazik</strong>{" "}
-              <BsEmojiLaughingFill /> .
+              <BsEmojiLaughingFill />.
             </p>
             <br />
             <p>
@@ -47,11 +48,11 @@ const Aboutme = () => {
               While I don’t have a specific role that I particularly like, if I
               had to choose one, it would be{" "}
               <strong>
-                web development <FaJs />{" "}
+                web development <FaJs />
               </strong>{" "}
               and{" "}
               <strong>
-                hardware <MdHardware />{" "}
+                hardware <MdHardware />
               </strong>
               .
             </p>

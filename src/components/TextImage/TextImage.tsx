@@ -22,7 +22,7 @@ const TextImage: React.FC<Props> = ({
     <div className={styles.container}>
       <div className={styles.textSection}>
         <h1 className={styles.title}>{title}</h1>
-        <p className={styles.description}>{description}</p>
+        <div className={styles.description}>{description}</div>
         <hr />
         {more ? <div>{extra}</div> : ""}
       </div>
