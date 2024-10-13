@@ -91,9 +91,6 @@ const Home = () => {
         </span>{" "}
         ideas <FcIdea />
       </h3>
-      <div>
-        <p>Hola</p>
-      </div>
     </section>
   );
 };
