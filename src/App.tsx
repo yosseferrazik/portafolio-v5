@@ -7,7 +7,6 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Aboutme from "./pages/Aboutme/Aboutme";
 import Skills from "./pages/Skills/Skills";
-import AnimationLayout from "./components/AnimationLayout/AnimationLayout";
 import Contact from "./pages/Contact/Contact";
 
 const App = () => {
