@@ -33,7 +33,7 @@ const Skills = () => {
         author="Yossef Errazik"
       />
       <div className={styles.articleContainer}>
-        <div className={styles.article}>
+        <article className={styles.article}>
           <div className={styles.articleTitle}>
             <h2>Languages</h2>
             <TbCodeDots />
@@ -55,8 +55,8 @@ const Skills = () => {
               <SiTypescript /> Typescript
             </div>{" "}
           </div>
-        </div>
-        <div className={styles.article}>
+        </article>
+        <article className={styles.article}>
           <div className={styles.articleTitle}>
             <h2>Tools</h2>
             <WiStars />
@@ -83,8 +83,8 @@ const Skills = () => {
               Git
             </div>{" "}
           </div>
-        </div>
-        <div className={styles.article}>
+        </article>
+        <article className={styles.article}>
           <div className={styles.articleTitle}>
             <h2>Backend & Frontend</h2>
             <HiPuzzlePiece />
@@ -106,7 +106,7 @@ const Skills = () => {
               <SiMongoose /> Mongoose
             </div>{" "}
           </div>
-        </div>
+        </article>
       </div>
     </section>
   );
