@@ -9,6 +9,8 @@ const Navbar = () => {
 
   const showNavbar = () => {
     navRef.current?.classList.toggle(styles.responsiveNav);
+
+    console.log(navRef.current?.classList);
   };
 
   return (
