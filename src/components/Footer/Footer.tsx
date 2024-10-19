@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <p>Hecho con amor por Yossef Errazik</p>{" "}
+      <p>Made with love by Yossef Errazik</p>{" "}
     </footer>
   );
 };
