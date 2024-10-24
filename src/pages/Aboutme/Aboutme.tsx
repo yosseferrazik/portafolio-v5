@@ -104,6 +104,10 @@ const Aboutme = () => {
                 </li>
               </ul>
             </div>
+            <br />
+            <hr />
+            <h1 className={styles.title}>Personal paradigm</h1>
+            <img src="https://i.imgur.com/XcNQJ7L.png" alt="personal paradigm" />
           </div>
         }
       />
