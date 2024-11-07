@@ -60,8 +60,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 15px;
-}
-.submitBtn {
+
   margin: 0 1rem;
   color: var(--textColor);
   text-decoration: none;

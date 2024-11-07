@@ -4,6 +4,7 @@ import { FcIdea } from "react-icons/fc";
 import { MdMail } from "react-icons/md";
 import styles from "./Home.module.css";
 import SEO from "../../components/SEO/SEO";
+import { FaFileDownload } from "react-icons/fa";
 
 const words = [
   "manifest",
@@ -35,6 +36,13 @@ const Home = () => {
     return () => clearInterval(intervalId);
   }, []);
 
+  const downloadPdf = () => {
+    const link = document.createElement("a");
+    link.href = "src/assets/europass.pdf";
+    link.download = "hire-me-please.pdf";
+    link.click();
+  };
+
   return (
     <section id="home" className={styles.home}>
       <SEO
@@ -43,10 +51,23 @@ const Home = () => {
         keywords="Yossef Errazik, desarrollo web, portafolio, tecnología"
         author="Yossef Errazik"
       />
+      <h1>
+        Im <span>Yossef Errazik</span>,
+      </h1>
       <div className={styles.homeSocialContainer}>
-        <h1>
-          Im <span>Yossef Errazik</span>,
-        </h1>
+        <h3>
+          And I{" "}
+          <span className={styles.blurTransition}>
+            <span
+              className={`${styles.spinWord} ${
+                isBlurred ? styles.blurred : ""
+              }`}
+            >
+              {currentWord}
+            </span>
+          </span>{" "}
+          ideas <FcIdea />
+        </h3>
         <div className={styles.socialContainer}>
           <FaGithubAlt
             onClick={() =>
@@ -80,17 +101,12 @@ const Home = () => {
         </div>
       </div>
       <hr />
-      <h3>
-        And I{" "}
-        <span className={styles.blurTransition}>
-          <span
-            className={`${styles.spinWord} ${isBlurred ? styles.blurred : ""}`}
-          >
-            {currentWord}
-          </span>
-        </span>{" "}
-        ideas <FcIdea />
-      </h3>
+
+      <div className={styles.cvDiv}>
+        <button id="downloadBtn" onClick={downloadPdf}>
+          <FaFileDownload /> Download my CV
+        </button>
+      </div>
     </section>
   );
 };

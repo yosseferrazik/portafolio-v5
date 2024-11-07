@@ -18,6 +18,7 @@
 
 .homeSocialContainer {
   display: flex;
+  justify-content: space-between;
 }
 
 .socialContainer svg {
@@ -60,6 +61,33 @@
   animation-play-state: running;
 }
 
+.cvDiv {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.cvDiv button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: solid 2px grey;
+  background-color: blue;
+  color: whitesmoke;
+  padding: 22px 15px;
+  border-radius: 10px;
+  width: 300px;
+  font-size: large;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+  gap: 10px;
+}
+.cvDiv button:hover {
+  transform: scale(1.1);
+}
 @keyframes bulblight {
   from {
     filter: drop-shadow(0 0 1rem yellow);
