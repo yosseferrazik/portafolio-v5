@@ -1,6 +1,6 @@
 import SEO from "../../components/SEO/SEO";
 import TextImage from "../../components/TextImage/TextImage";
-import { FaGithub, FaExternalLinkAlt, FaCode } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import styles from "./Projects.module.css";
 
 const Projects = () => {
@@ -13,7 +13,6 @@ const Projects = () => {
         author="Yossef Errazik"
       />
 
-      {/* Parte superior con TextImage */}
       <TextImage
         imageFirst={true}
         title="Projects"
@@ -30,7 +29,6 @@ const Projects = () => {
         more={false}
       />
 
-      {/* Lista de proyectos debajo del TextImage */}
       <div className={styles.projectList}>
         <article className={styles.projectCard}>
           <h2>Volture Dynamics</h2>
