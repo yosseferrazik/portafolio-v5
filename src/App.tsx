@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Aboutme from "./pages/Aboutme/Aboutme";
 import Skills from "./pages/Skills/Skills";
 import Contact from "./pages/Contact/Contact";
+import Certificates from "./pages/Certificates/Certificates";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/aboutme" element={<Aboutme />} />{" "}
         <Route path="/skills" element={<Skills />} />{" "}
         <Route path="/contact" element={<Contact />} />{" "}
+        <Route path="/certificates" element={<Certificates />} />{" "}
       </Routes>
       <Footer />
     </>

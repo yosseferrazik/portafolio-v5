@@ -1,0 +1,37 @@
+.certificates {
+  margin-top: 40px;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 1.25rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.leftList,
+.rightList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 45%;
+}
+
+.leftList li,
+.rightList li {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .leftList,
+  .rightList {
+    text-align: left;
+    width: 100%;
+    margin: 15px 0;
+  }
+}
