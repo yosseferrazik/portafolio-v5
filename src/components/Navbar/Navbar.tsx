@@ -31,6 +31,9 @@ const Navbar = () => {
         <Link to={"/certificates"} onClick={showNavbar}>
           🎓​ Certificates
         </Link>
+        <Link to={"/projects"} onClick={showNavbar}>
+          🏛️​​ Projects
+        </Link>
         <Link to={"/skills"} onClick={showNavbar}>
           🦾​ Tech skills
         </Link>

@@ -46,31 +46,14 @@ const Certificates = () => {
             <div className={styles.listContainer}>
               <ul className={styles.leftList}>
                 <li>
-                  <FaGraduationCap /> Cisco CCNA Networking Basics
-                </li>
-                <li>
-                  <FaCertificate /> Microsoft Azure Fundamentals
-                </li>
-                <li>
-                  <FaCertificate /> CompTIA A+ Certification
-                </li>
-                <li>
-                  <FaCertificate /> Google IT Support
+                  <FaGraduationCap /> Compulsory secondary education
                 </li>
               </ul>
 
               <ul className={styles.rightList}>
                 <li>
-                  <FaCertificate /> Web Development Bootcamp
-                </li>
-                <li>
-                  <FaCertificate /> Linux System Administration
-                </li>
-                <li>
-                  <FaCertificate /> Cybersecurity Fundamentals
-                </li>
-                <li>
-                  <FaCertificate /> Project Management Basics
+                  <FaGraduationCap /> Technician in Microcomputer Systems and
+                  Networks
                 </li>
               </ul>
             </div>
