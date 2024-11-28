@@ -22,6 +22,12 @@
   transition: transform 0.2s ease-in-out;
 }
 
+.projectCard img {
+  width: 200px;
+  height: 100px;
+  border-radius: 4px;
+}
+
 .projectCard:hover {
   transform: translateY(-10px);
 }

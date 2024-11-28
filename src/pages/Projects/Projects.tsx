@@ -31,14 +31,21 @@ const Projects = () => {
 
       <div className={styles.projectList}>
         <article className={styles.projectCard}>
-          <h2>Volture Dynamics</h2>
+          <h2>Styled Jukbox for a jam</h2>
           <p>
-            A custom single-board computer project that serves as a NAS, gaming
-            console, and more.
+            A fully styled Jukebox that plays some of my favorite music groups
+            and games
           </p>
           <div className={styles.links}>
             <a
-              href="https://github.com/YossefErrazik/volture-dynamics"
+              href="https://react-jukebox.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaExternalLinkAlt /> Live Site
+            </a>{" "}
+            <a
+              href="https://github.com/yosseferrazik/jukebox"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -46,8 +53,8 @@ const Projects = () => {
             </a>
           </div>
         </article>
-
         <article className={styles.projectCard}>
+          <img src="https://i.imgur.com/VMdMM6x.png" alt="" />
           <h2>Portfolio Website</h2>
           <p>
             The official portfolio site showcasing my work and skills in web
@@ -55,7 +62,7 @@ const Projects = () => {
           </p>
           <div className={styles.links}>
             <a
-              href="https://yosseferrazik.dev"
+              href="https://yosseferrazik.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,19 +70,47 @@ const Projects = () => {
             </a>
           </div>
         </article>
-
         <article className={styles.projectCard}>
-          <h2>Network Security Toolkit</h2>
-          <p>
-            A set of scripts and tools to secure and monitor network traffic.
-          </p>
+          <img src="https://i.imgur.com/6beOfbI.png" alt="" />
+          <h2>Spanish dactylogical translator</h2>
+          <p>A sign language translator made for deaf people</p>
           <div className={styles.links}>
             <a
-              href="https://github.com/YossefErrazik/network-toolkit"
+              href="https://github.com/yosseferrazik/spanish-sign-language-translator"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub /> GitHub
+            </a>
+            <a
+              href="https://traductor-dactilologico.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaExternalLinkAlt /> Live Site
+            </a>
+          </div>
+        </article>{" "}
+        <article className={styles.projectCard}>
+          <img src="https://i.imgur.com/7GaPiRd.png" alt="" />
+          <h2>CryptoKA</h2>
+          <p>
+            A crypto currency tracker made with Axios and Coingecko API Rest
+          </p>
+          <div className={styles.links}>
+            <a
+              href="https://github.com/yosseferrazik/cryptocurrency-tracker"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub /> GitHub
+            </a>
+            <a
+              href="https://cryptoka.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaExternalLinkAlt /> Live Site
             </a>
           </div>
         </article>
